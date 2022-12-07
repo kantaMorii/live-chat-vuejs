@@ -1,4 +1,4 @@
-# live-chat-vuejs
+# リアルタイムチャット機能をRailsとVueで作りました。
 
 ## Project setup
 ```
