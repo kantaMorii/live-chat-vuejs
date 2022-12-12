@@ -1,24 +1,10 @@
-# リアルタイムチャット機能をRailsとVueで作りました。
+# リアルタイムチャット機能をRailsとVueで実装しました。(Vueのコードは別リポジトリにあります)
+ログイン画面からサインアップまたはログインすることでチャットルームに移ることができます。
+![image](https://user-images.githubusercontent.com/109891167/206955874-59617afe-36e1-45be-b76a-44b389c59a80.png)
 
-## Project setup
-```
-npm install
-```
+チャットルームでは好きにチャットを送りあうことができ、非同期通信(Websoket)を利用しているためリアルタイムで相手の投稿を読むことができます。
+また、好きな反応等があればいいね！（ハート）を付けることができます。
+![image](https://user-images.githubusercontent.com/109891167/206956110-86c8a2cf-dd1c-44db-b778-1729c57efb0c.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+※実際にWeb上(heroku)に挙げているものはプライベートの会話をしてしまっているため、公開はできません。また、そのため新規でサインアップすることができくなっております。
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
